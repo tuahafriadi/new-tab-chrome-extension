@@ -1,0 +1,138 @@
+/* 
+- Wanjex - CSS3 Style by Pku.LNX# 
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
+* {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+}
+body {
+		color: silver;
+		font-family: 'Segoe UI',sans-serif;
+		justify-content: center;
+		cursor: default;
+}
+html {
+	scroll-behavior: smooth;
+}
+.lol {
+		background-image: url(../img/bg-gunung.jpg);
+		background-size: cover;
+		background-position: center;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+  		height: 100vh;
+
+}
+.header {
+	    width: 100%;
+	  	height: 100%;
+	  	background-color: rgba(0, 0, 0, 0.7);
+  		display: flex;
+  		justify-content: center;
+ 		justify-content: center;
+		align-items: center;
+  		margin: 0;
+}
+.header h1 {
+	font-size: 50px;
+	color: #877352;
+	letter-spacing: 10px;
+	margin-bottom: 10px;
+	line-height: 2;
+}
+.search {
+	background-color: #222;
+	color: #888;
+	border: 0px;
+	outline: none;
+	width: 540px;
+	height: 40px;
+	padding-left: 2em;
+	font-style: italic;
+	letter-spacing: 0.50px;
+	border-radius: 30px;
+	position:relative;
+	margin: 0;
+	text-align: left;
+	transition: 0.5s;
+}
+.search:hover {
+	color: #999;
+	background-color: #2d2d2d;
+}
+.search:focus {
+	color: #6e624e;
+	font-style: normal;
+	width: 470px;
+	transition: 0.3s;
+	padding-left: 3em;
+}
+
+
+.version {
+	font-size: 12px;
+	letter-spacing: 0;
+	font-weight: 400;
+	color: #8f8677;
+	padding-top: 70px;
+	white-space: pre-line;
+}
+
+
+.footer {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	background-color: #1d1d1d;
+}
+.footer p {
+	color: #888;
+	font-size: 11px;
+	padding: 10px 0;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	font-family: 'Roboto',sans-serif;
+	padding-right: 3em;
+	float: right;
+}
+a {
+	color: #888;
+}
+a:hover {
+	color: white;
+}
+.cyrenx {
+	color: #9d9d9d;
+	text-decoration: none;
+}
+.cyrenx:hover {
+	color: #ddd;
+	text-decoration: underline;
+}
+.cyrenx:active {
+	color: white;
+	letter-spacing: 1px;
+}
+.icon {
+	font-size: 20px;
+	float: left;
+	margin-top: 12px;
+	margin-left: 0.29em;
+}
+.footer em {
+	font-style: normal;
+	font-size: 13px;
+	font-weight: 400;
+	float: left;
+	color: #888;
+	letter-spacing: 1;
+	padding-top: 5px;
+	padding: 5 15px;
+	white-space: pre-line;
+	margin-left: 1em;
+	margin-top: 4px;
+}
