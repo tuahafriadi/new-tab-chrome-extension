@@ -1,0 +1,137 @@
+/* CSS Stylesheet created by Adi Wijaya */
+/* Webpages is not Responsive Layout only Fixed Layout */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+* {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+body {
+        color: silver;
+        font-family: 'Roboto','Segoe UI',sans-serif;
+        background: #111;
+        user-select: none;
+        -webkit-user-select: none;
+        cursor: default;
+}
+html {
+        scroll-behavior: unset;
+        transition: 0.4s;
+}
+::-moz-selection {
+  background-color: #eee;
+  color: #222
+}
+
+::selection {
+  background-color: #eee;
+  color: #222
+}
+.dextab {
+        width: 100vw;
+        height: 100vh;
+        background-attachment: fixed;
+}
+.container-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+}
+.startPages {
+        margin-top: 0px;
+}
+.box-1 {
+        border: 0px solid #555;
+        width: 800px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.link, .logo, .nf {
+        color: #aaa;
+        font-size: 13px;
+        font-family: 'Roboto',sans-serif;
+        text-decoration: none;
+        line-height: 2;
+        margin: 20 20;
+        transition: 0.3s;
+        outline: none;
+        opacity: 0.3;
+}
+.link:hover {
+        color: white;
+        opacity: 1;
+}
+.link:active {
+        font-size: 11px;
+}
+img.logo {
+        width: 35px;
+        opacity: 0.9;
+}
+img.logo:hover {
+        opacity: 1;
+}
+.footer-dextab {
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        background: transparent;
+        width: 100%;
+        height: 55px;
+        color: transparent;
+        font-size: 11px;
+        font-family: 'Electrolize', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.7s;
+}
+.footer-dextab:hover {
+        color: #888;
+        text-shadow: 1px 0px 10px silver;
+}
+
+/* NRC Pages stylesheet */
+.noRightClick {
+        width: 100vw;
+        height: 100vh;
+        background: #eee;
+        background-attachment: fixed;
+}
+.container-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+}
+.startPages-1 {
+        margin-top: 0px;
+}
+.row-1 {
+        border: 0px solid #333;
+        width: 650px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: no-drop;
+}
+.row-1 h1 {
+        color: #222;
+        font-size: 20px;
+        margin: 0 40;
+        white-space: pre-line;
+        text-align: left;
+        line-height: 1.5;
+}
+.row-1 p {
+        color: #555;
+        font-size: 14px;
+        font-weight: 400;
+}
+img.click {
+        width: 80px;
+}

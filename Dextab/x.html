@@ -1,0 +1,45 @@
+<html><head>
+	<title>New tab</title>
+	<meta charset="utf-8">
+	<meta name="description" content="new tab for chrome">
+	<meta name="author" content="Adi Wijaya">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body oncontextmenu="return false" onselect="return false" ondragstart="return false">
+	<center>
+
+		<!--Scripting here-->
+		<div class="dextab" oncontextmenu="RightMouseDown()" id="Home">
+			<div class="container-1">
+				<div class="startPages">
+					<div class="box-1">
+						<a href="https://www.youtube.com" class="link"><img src="icons/youtube.png" class="logo"><br>YouTube</a>
+						<a href="https://www.google.com/gmail/" class="link"><img src="icons/gmail.png" class="logo"><br>Gmail</a>
+						<a href="https://soundcloud.com/" class="link"><img src="icons/soundcloud.png" class="logo"><br>Soundcloud</a>
+						<a href="https://www.facebook.com/" class="link"><img src="icons/fb.png" class="logo"><br>Facebook</a>
+						<a href="https://www.quora.com" class="link"><img src="icons/quora.png" class="logo"><br>Quora</a>
+						<a href="https://www.instagram.com/" class="link"><img src="icons/ig.png" class="logo"><br>Instagram</a>
+						<a href="https://www.detik.com/" class="link"><img src="icons/detik.png" class="logo"><br>Detikcom</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--noClick page here-->
+		<div class="noRightClick" id="NRC">
+			<div class="container-1">
+				<div class="startPages-1">
+					<div class="row-1">
+						<img src="icons/noclick-100.png" class="click" onclick="backtohome()"><h1>Right Click was Disabled for Pages Security purpose.
+							<p>Please return with the button at the top left</p></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Footer for Watermark-->
+		<div class="footer-dextab">
+			&copy; Dextab. Made by Adi Wijaya
+		</div>

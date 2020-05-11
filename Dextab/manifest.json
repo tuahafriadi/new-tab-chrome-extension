@@ -1,0 +1,9 @@
+{
+  "name": "Dextab",
+  "description": "Minimalist New Tab for Chrome",
+  "version": "0.1",
+  "incognito": "split",
+  "chrome_url_overrides": {"newtab": "x.html"},
+  "permissions": ["bookmarks", "history", "storage"],
+  "manifest_version": 2
+}
