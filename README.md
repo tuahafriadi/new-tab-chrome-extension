@@ -1,2 +1,2 @@
-# pkulnx-me.github.io
-Pku.LNX# Simple Blog Pages from GitHub!
+# Welcome to My GitHub Blog
+A Simple Blog with best design
