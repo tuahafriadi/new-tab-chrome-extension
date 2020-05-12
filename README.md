@@ -31,7 +31,8 @@ Create a new directory from your computer, and then make 2 files for Chrome exte
   "manifest_version": 2
 }
 ```
-
+after that, go to Extension Setting and active **Developer Mode** ,choose **Load unpacket** load folder where you save the manifest.json
+its done
 
 ### Previews
 
