@@ -12,6 +12,8 @@ imm build startpages too for Custom New Tab on Google Chrome and you can use my 
 Create a new directory from your computer, and then make 2 files for Chrome extension details data :
 - manifest.json
 - index.html
+
+**manifest.json**
 ```
 {
   "name": "Dextab",
@@ -20,7 +22,7 @@ Create a new directory from your computer, and then make 2 files for Chrome exte
   "incognito": "split",
   "chrome_url_overrides": 
   	{
-  	   "newtab": "x.html"
+  	   "newtab": "index.html"
   	},
   "permissions": 
   	[
