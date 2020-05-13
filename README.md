@@ -1,5 +1,5 @@
 # Welcome to My GitHub Blog
-A Simple Blog with best design
+A Simple Blog with best design. i really sorry the website is not responsive just using fixed layout, but you can do it yourself with using responsive layout. give me support for this,bro
 
 
 **Support Startpages**
