@@ -1,6 +1,4 @@
-# Welcome to My GitHub Blog
-A Simple Blog with best design. i really sorry the website is not responsive just using fixed layout, but you can do it yourself with using responsive layout. give me support for this,bro
-
+# New Tab - for Chrome Theme
 
 **Support Startpages**
 
@@ -41,7 +39,7 @@ Dextab|Wanjex
 ![img](https://raw.githubusercontent.com/adiwj/adiwj.github.io/master/Preview/dextab.png)|![img](https://raw.githubusercontent.com/adiwj/adiwj.github.io/master/Preview/wanjex.png)
 
 ----------------------------------------
-- Contact : www.facebook.com/adi.wj0
-
+- Facebook : www.facebook.com/diiwjyx
+- Instagram : www.instagram.com/tuahafriadi_
 
 Thank you
